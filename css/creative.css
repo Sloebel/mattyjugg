@@ -443,10 +443,7 @@ header {
     color: #fff;
     background-image: url(../img/header.jpg);
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
 }
 
 header .header-content {
@@ -493,9 +490,12 @@ header .header-content {
 }
 
 @media(min-width:768px) {
-    /*header {*/
-        /*min-height: 100%;*/
-    /*}*/
+    header {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
     .header-content .btn {
         left: -250px;
     }
