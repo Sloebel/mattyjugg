@@ -438,7 +438,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: 50%;
+    min-height: 100%;
     text-align: center;
     color: #fff;
     background-image: url(../img/header.jpg);
@@ -476,9 +476,6 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-header {
-    min-height: 100%;
-}
 
 header .header-content {
     /*display: block;*/
