@@ -372,6 +372,10 @@
 
     <!--&lt;!&ndash; Script to Activate the Carousel &ndash;&gt;-->
     <script>
+        $(document).ready( function() {
+            console.log((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+            $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+        });
         $('.carousel').carousel({
             interval: 50000 //changes the speed
         });
@@ -392,6 +396,7 @@
                 $('.carousel-inner .item')[imgToStart].className += ' active';
             }
         });
+
     </script>
 
 </body>
