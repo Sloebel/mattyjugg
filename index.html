@@ -378,6 +378,7 @@
         if(window.innerWidth < 768) {
             $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
             $( window ).resize(function() {
+                console.log($(window).innerHeight());
                 $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
             });
         }
