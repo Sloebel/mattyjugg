@@ -486,8 +486,8 @@ header .header-content .header-content-inner p {
         height: 100%;
     }
     header .header-content {
-        position: absolute;
-        top: 90%;
+        /*position: absolute;*/
+        /*top: 90%;*/
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);

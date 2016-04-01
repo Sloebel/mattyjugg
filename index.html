@@ -372,10 +372,17 @@
 
     <!--&lt;!&ndash; Script to Activate the Carousel &ndash;&gt;-->
     <script>
-        $(document).ready( function() {
-            console.log((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+//        $(document).ready( function() {
+//            console.log((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+//            console.log($(window).innerHeight());
+        if(window.innerWidth < 768) {
             $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-        });
+            $( window ).resize(function() {
+                $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+            });
+        }
+
+
         $('.carousel').carousel({
             interval: 50000 //changes the speed
         });
