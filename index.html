@@ -381,11 +381,12 @@
 //                console.log($(window).innerHeight());
 //                $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
 //            });
-            $( window ).on( "orientationchange", function( event ) {
-                console.log($(window).innerHeight());
-                $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-            });
+
         }
+        $( window ).on( "orientationchange", function( event ) {
+            console.log($(window).innerHeight());
+            $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+        });
 
 
 
