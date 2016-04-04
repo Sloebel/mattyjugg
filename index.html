@@ -377,17 +377,12 @@
         console.log($(window).innerHeight());
         if(window.innerWidth < 768) {
             $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-            var currentWidth = window.innerWidth,
-                changeToHeight;
+            var currentWidth = window.innerWidth;
             console.log(currentWidth);
             $( window ).resize(function() {
                 console.log($(window).innerHeight());
                 if (window.innerWidth != currentWidth) {
-                    changeToHeight = (typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height();
-                    if (window.innerWidth/window.innerHeight > 1) {
-                        changeToHeight += 50;
-                    }
-                    $('header').height(changeToHeight);
+                    $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
                     currentWidth = window.innerWidth;
                 }
 
