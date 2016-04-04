@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc593bcc-d2ba-452f-9372-a235b7d69b4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/creative.css" afterPath="$PROJECT_DIR$/css/creative.css" />
     </list>
     <ignored path="mattyjugg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15017879">
+            <state vertical-scroll-proportion="-4.2">
               <caret line="383" column="56" selection-start-line="383" selection-start-column="56" selection-end-line="383" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="creative.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.84375">
-              <caret line="488" column="8" selection-start-line="488" selection-start-column="10" selection-end-line="489" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.7562724">
+              <caret line="519" column="5" selection-start-line="519" selection-start-column="5" selection-end-line="519" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -116,9 +116,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/creative.css" />
         <option value="$PROJECT_DIR$/js/jquery.mobile.custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/creative.css" />
       </list>
     </option>
   </component>
@@ -347,14 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/creative.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.84375">
-          <caret line="488" column="8" selection-start-line="488" selection-start-column="10" selection-end-line="489" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.mobile.custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="22.5">
@@ -367,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15017879">
+        <state vertical-scroll-proportion="-4.2">
           <caret line="383" column="56" selection-start-line="383" selection-start-column="56" selection-end-line="383" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -377,6 +369,14 @@
             <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/creative.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7562724">
+          <caret line="519" column="5" selection-start-line="519" selection-start-column="5" selection-end-line="519" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

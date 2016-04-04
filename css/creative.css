@@ -514,7 +514,12 @@ header .header-content .header-content-inner p {
     .modal .modal-content {
         padding: 0px;
     }
+
+    .header-content .btn {
+        left: -250px;
+    }
 }
+
 .section-heading {
     margin-top: 0;
 }
