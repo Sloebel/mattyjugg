@@ -374,19 +374,24 @@
     <script>
 //        $(document).ready( function() {
 //            console.log((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-            console.log($(window).innerHeight());
+        console.log($(window).innerHeight());
         if(window.innerWidth < 768) {
             $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-//            $( window ).resize(function() {
-//                console.log($(window).innerHeight());
-//                $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-//            });
+            var currentWidth = window.innerWidth;
+            console.log(currentWidth);
+            $( window ).resize(function() {
+                console.log($(window).innerHeight());
+                if (window.innerWidth != currentWidth) {
+                    $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+                    currentWidth = window.innerWidth;
+                }
 
+            });
         }
-        $( window ).on( "orientationchange", function( event ) {
-            console.log($(window).innerHeight());
-            $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
-        });
+//        $( window ).on( "orientationchange", function( event ) {
+//            console.log($(window).innerHeight());
+//            $('header').height((typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+//        });
 
 
 
