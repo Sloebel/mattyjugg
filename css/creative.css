@@ -520,6 +520,14 @@ header .header-content .header-content-inner p {
         top: -20px;
     }
 }
+@media screen and (min-aspect-ratio: 16/9) and (max-height:450px){
+    header {
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+    }
+}
 
 .section-heading {
     margin-top: 0;
